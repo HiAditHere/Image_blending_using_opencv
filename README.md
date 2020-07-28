@@ -17,3 +17,6 @@ At first we will compress both the images(i.e apple.jpg and orange.jpg). After t
 
 The image in window apple-orange is the image formed by taking one half of the pixels from one image and other half of pixels from the second image.
 The image in windoe apple-orange-blend is the image which is blended.
+
+# How to run.
+Well its simple. Just download the zip folder and extract into your pc/laptop. Open any editor and run image_blending.py. You are good to go :D
