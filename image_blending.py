@@ -65,8 +65,6 @@ for i in range(1, 6):
 	apple_orange_reconstruct = cv2.pyrUp(apple_orange_reconstruct)
 	apple_orange_reconstruct = cv2.add(apple_orange_pyramid[i], apple_orange_reconstruct)
 
-cv2.imshow("apple", apple)
-cv2.imshow("orange", orange)
 cv2.imshow("apple-orange", apple_orange)
 cv2.imshow("apple-orange-blend", apple_orange_reconstruct)
 cv2.waitKey(0)
