@@ -1,14 +1,11 @@
 import cv2
 import numpy as np
 
-apple = cv2.imread('opencv-master/samples/data/apple.jpg')
-orange = cv2.imread('opencv-master/samples/data/orange.jpg')
+apple = cv2.imread('images/apple.jpg')
+orange = cv2.imread('images/orange.jpg')
 
 apple = cv2.resize(apple, (512,512))
 orange = cv2.resize(orange, (512,512))
-
-#apple = cv2.imread('blue.jpg')
-#orange = cv2.imread('red.jpg')
 
 print(apple.shape)
 print(orange.shape)
