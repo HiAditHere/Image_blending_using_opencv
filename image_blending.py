@@ -10,6 +10,7 @@ orange = cv2.resize(orange, (512,512))
 print(apple.shape)
 print(orange.shape)
 
+#joining half of the apple and half of the orange images. No smooth blending in this case.
 apple_orange = np.hstack((apple[:, :256], orange[:, 256:]))
 
 #construct gaussian pyramid for apple
